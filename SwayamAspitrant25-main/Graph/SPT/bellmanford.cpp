@@ -41,7 +41,7 @@ void bellmanFord(vector<Edge>& edges, int n, int src, vector<int>& dist) {
 
 int main() {
     int n, m;
-    cout << "Enter number of nodes and edges: ";
+    cout << "Enter Number of nodes and edges: ";
     cin >> n >> m;
 
     vector<Edge> edges(m);
