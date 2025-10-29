@@ -10,9 +10,9 @@ int lcs(string s1, string s2, int m, int n, vector<vector<int>>& dp) {
 
 int main() {
     string s1, s2;
-    cout << "Enter first string: ";
+    cout << "Enter first string:";
     cin >> s1;
-    cout << "Enter second string: ";
+    cout << "Enter second string:";
     cin >> s2;
     int m = s1.length(), n = s2.length();
     vector<vector<int>> dp(m+1, vector<int>(n+1, -1));
