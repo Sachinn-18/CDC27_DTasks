@@ -21,6 +21,6 @@ int main() {
         cin >> nums[i];
     }
     bool result = canJump(nums);
-    cout << (result ? "Can reach the end" : "Cannot reach the end") << endl;
+    cout << (result ? "Can reach the end":"Cannot reach the end") << endl;
     return 0;
 }
