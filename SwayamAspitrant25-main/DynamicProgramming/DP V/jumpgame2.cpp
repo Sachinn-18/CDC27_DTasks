@@ -15,7 +15,7 @@ int jump(vector<int>& nums) {
 
 int main() {
     int n;
-    cout << "Enter size of array: ";
+    cout << "Enter size of array:";
     cin >> n;
     vector<int> nums(n);
     cout << "Enter array elements: ";
@@ -23,6 +23,6 @@ int main() {
         cin >> nums[i];
     }
     int result = jump(nums);
-    cout << "Minimum jumps needed: " << result << endl;
+    cout << "Minimum jumps needed:" << result << endl;
     return 0;
 }
