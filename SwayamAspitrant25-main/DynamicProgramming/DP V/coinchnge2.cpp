@@ -14,7 +14,7 @@ int change(int amount, vector<int>& coins) {
 
 int main() {
     int n, amount;
-    cout << "Enter number of coin denominations: ";
+    cout << "Enter number of coin denominations:";
     cin >> n;
     vector<int> coins(n);
     cout << "Enter coin denominations: ";
