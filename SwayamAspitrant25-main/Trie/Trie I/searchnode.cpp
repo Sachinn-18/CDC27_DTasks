@@ -43,7 +43,7 @@ int main() {
     for (string word : words) {
         insert(root, word);
     }
-    vector<string> searchWords = {"hello", "world", "trie", "notpresent"};
+    vector<string> searchWords = {"hello", "world", "Trie", "notpresent"};
     for (string word : searchWords) {
         bool found = search(root, word);
         cout << "Search for '" << word << "': " << (found ? "Found" : "Not Found") << endl;
