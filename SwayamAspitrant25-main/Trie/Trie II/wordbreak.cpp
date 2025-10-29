@@ -59,17 +59,17 @@ int main() {
     vector<string> wordDict = {"leet", "code"};
     string s = "leetcode";
     bool result = wordBreak(s, wordDict);
-    cout << "Can '" << s << "' be segmented? " << (result ? "Yes" : "No") << endl;
+    cout << "Can '" << s << "' be segmented? " << (result ? "Yes" : "no") << endl;
 
     s = "applepenapple";
     wordDict = {"apple", "pen"};
     result = wordBreak(s, wordDict);
-    cout << "Can '" << s << "' be segmented? " << (result ? "Yes" : "No") << endl;
+    cout << "Can '" << s << "' be segmented? " << (result ? "Yes" : "no") << endl;
 
     s = "catsandog";
     wordDict = {"cats", "dog", "sand", "and", "cat"};
     result = wordBreak(s, wordDict);
-    cout << "Can '" << s << "' be segmented? " << (result ? "Yes" : "No") << endl;
+    cout << "Can '" << s << "' be segmented? " << (result ? "Yes" : "no") << endl;
 
     return 0;
 }
