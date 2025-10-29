@@ -37,7 +37,7 @@ int numIslands(vector<vector<char>>& grid) {
 
 int main() {
     int rows, cols;
-    cout << "Enter number of rows and columns: ";
+    cout << "Enter Number of rows and columns: ";
     cin >> rows >> cols;
 
     vector<vector<char>> grid(rows, vector<char>(cols));
