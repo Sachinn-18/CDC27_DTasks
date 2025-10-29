@@ -21,7 +21,7 @@ public:
 int main() {
     Solution sol;
     int size;
-    cout << "Enter the number of costs: ";
+    cout << "Enter the number of costs:";
     cin >> size;
     vector<int> cost(size);
     cout << "Enter costs: ";
