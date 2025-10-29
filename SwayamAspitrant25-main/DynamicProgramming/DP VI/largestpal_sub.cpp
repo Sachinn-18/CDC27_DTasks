@@ -32,6 +32,6 @@ int main() {
     string s;
     cout << "Enter string: ";
     cin >> s;
-    cout << "Longest palindrome substring: " << longestPalindrome(s) << endl;
+    cout << "Longest palindrome substring:" << longestPalindrome(s) << endl;
     return 0;
 }
