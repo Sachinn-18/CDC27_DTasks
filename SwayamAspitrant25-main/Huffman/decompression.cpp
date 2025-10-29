@@ -49,7 +49,7 @@ int main() {
     // Read codes
     map<char, string> codes;
     string line;
-    cout << "Enter Huffman codes (one per line, format: char:code, end with empty line):" << endl;
+    cout << "Enter Huffman codes (one per line, format: char:code,end with empty line):" << endl;
     while (getline(cin, line)) {
         if (line.empty()) break;
         size_t colon = line.find(':');
