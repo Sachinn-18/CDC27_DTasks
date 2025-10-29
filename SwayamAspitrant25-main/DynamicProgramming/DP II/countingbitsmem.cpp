@@ -27,7 +27,7 @@ public:
 int main() {
     Solution sol;
     int n;
-    cout << "Enter n: ";
+    cout << "Enter N: ";
     cin >> n;
     vector<int> res = sol.countBits(n);
     for (int num : res) cout << num << " ";
