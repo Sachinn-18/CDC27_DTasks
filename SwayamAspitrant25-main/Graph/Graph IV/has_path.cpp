@@ -50,7 +50,7 @@ int main() {
     if (hasPath(source, destination, adj, vertices)) {
         cout << "Path exists from " << source << " to " << destination << endl;
     } else {
-        cout << "No path exists from " << source << " to " << destination << endl;
+        cout << "No Path exists from " << source << " to " << destination << endl;
     }
 
     return 0;
