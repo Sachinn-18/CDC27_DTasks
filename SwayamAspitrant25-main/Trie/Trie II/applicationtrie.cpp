@@ -55,7 +55,7 @@ int main() {
     vector<string> words = {"apple", "app", "application", "bat", "ball", "cat"};
     for (string word : words) {
         insert(root, word);
-        cout << "Inserted: " << word << endl;
+        cout << "Inserted : " << word << endl;
     }
 
     string prefix = "app";
