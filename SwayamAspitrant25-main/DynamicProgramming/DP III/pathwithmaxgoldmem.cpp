@@ -26,7 +26,7 @@ int getMaximumGold(vector<vector<int>>& grid) {
 }
 
 int main() {
-    vector<vector<int>> grid = {{0, 6, 0}, {5, 8, 7}, {0, 9, 0}};
+    vector<vector<int>> grid = {{0, 6,9}, {5, 8, 7}, {0, 9, 0}};
     cout << getMaximumGold(grid) << endl;
     return 0;
 }
