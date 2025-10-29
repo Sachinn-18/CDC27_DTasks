@@ -30,7 +30,7 @@ int main() {
     vector<string> words = {"hello", "world", "trie"};
     for (string word : words) {
         insert(root, word);
-        cout << "Inserted: " << word << endl;
+        cout << "Inserted : " << word << endl;
     }
     return 0;
 }
