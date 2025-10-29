@@ -21,7 +21,7 @@ bool isSubsetSum(vector<int>& nums, int target) {
 }
 
 int main() {
-    vector<int> nums = {3, 34, 4, 12, 5, 2};
+    vector<int> nums = {3, 34, 14, 12, 5, 2};
     int target = 9;
     if (isSubsetSum(nums, target)) {
         cout << "Subset with sum " << target << " exists." << endl;
