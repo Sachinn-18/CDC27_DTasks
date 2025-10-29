@@ -23,7 +23,7 @@ int rob(vector<int>& nums) {
 }
 
 int main() {
-    vector<int> nums = {2, 3, 2};
+    vector<int> nums = {2, 4, 2};
     cout << rob(nums) << endl;
     return 0;
 }
