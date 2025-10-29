@@ -35,7 +35,7 @@ void printAllPaths(int s, int d, vector<vector<int>>& adj, int vertices) {
 
 int main() {
     int vertices, edges;
-    cout << "Enter number of vertices and edges: ";
+    cout << "Enter Number of vertices and edges: ";
     cin >> vertices >> edges;
 
     vector<vector<int>> adj(vertices);
