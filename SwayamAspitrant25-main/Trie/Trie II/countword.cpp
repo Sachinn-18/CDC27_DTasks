@@ -43,7 +43,7 @@ int main() {
     vector<string> words = {"hello", "world", "trie", "hell", "heaven", "heavy"};
     for (string word : words) {
         insert(root, word);
-        cout << "Inserted: " << word << endl;
+        cout << "Inserted : " << word << endl;
     }
 
     int totalWords = countWords(root);
