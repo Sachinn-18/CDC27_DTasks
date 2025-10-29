@@ -18,7 +18,7 @@ public:
 int main() {
     Solution sol;
     int n;
-    cout << "Enter n: ";
+    cout << "Enter n:";
     cin >> n;
     cout << sol.numSquares(n) << endl;
     return 0;
