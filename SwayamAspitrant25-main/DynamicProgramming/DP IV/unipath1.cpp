@@ -13,7 +13,7 @@ int uniquePaths(int m, int n) {
 }
 
 int main() {
-    int m = 3, n = 7;
+    int m = 3, n = 5;
     cout << "Number of unique paths: " << uniquePaths(m, n) << endl;
     return 0;
 }
