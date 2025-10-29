@@ -44,7 +44,7 @@ int main() {
     }
 
     int source, destination;
-    cout << "Enter source and destination: ";
+    cout << "Enter Source and destination: ";
     cin >> source >> destination;
 
     if (hasPath(source, destination, adj, vertices)) {
