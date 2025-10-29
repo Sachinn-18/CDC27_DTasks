@@ -18,7 +18,7 @@ public:
 int main() {
     Solution sol;
     int n;
-    cout << "Enter the number of stairs: ";
+    cout << "Enter the number of stairs:";
     cin >> n;
     cout << sol.climbStairs(n) << endl;
     return 0;
