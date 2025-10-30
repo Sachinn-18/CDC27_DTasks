@@ -2,7 +2,7 @@
 using namespace std;
 
 // Function to check if string s matches pattern p with wildcards
-bool isMatch(string s, string p) {
+bool isMatch(string r, string p) {
     // TODO: Implement wildcard matching using dynamic programming
     // '?' matches any single character
     // '*' matches any sequence of characters (including empty)
@@ -11,8 +11,8 @@ bool isMatch(string s, string p) {
 
 int main() {
     // Example usage
-    string s = "aa";
+    string r = "aa";
     string p = "a*";
-    cout << isMatch(s, p) << endl; // Expected: true
+    cout << isMatch(r, p) << endl; // Expected: true
     return 0;
 }
