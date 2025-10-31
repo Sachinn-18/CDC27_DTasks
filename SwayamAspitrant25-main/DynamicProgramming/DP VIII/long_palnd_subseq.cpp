@@ -20,7 +20,7 @@ int longestPalindromicSubsequence(string s) {
 }
 
 int main() {
-    string s = "bbbab";
+    string s = "abbbab";
     cout << longestPalindromicSubsequence(s) << endl;
     return 0;
 }
